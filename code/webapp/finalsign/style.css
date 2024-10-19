@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+}
+
+#videoContainer {
+    margin-top: 20px;
+}
+
+video {
+    margin: 10px;
+}

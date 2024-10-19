@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Video Call</title>
+    <link rel="stylesheet" href="nitk.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="video-call-container">
+        <video id="localVideo" autoplay playsinline></video>
+        <button id="invertBtn">Invert Video</button>
+        <div id="captions">Captions will appear here...</div> 
+        <div id="controls">
+            <button id="muteBtn" class="control-btn">Mute</button>
+            <button id="videoBtn" class="control-btn">Stop Video</button>
+            <button id="leaveBtn" class="control-btn">Leave</button>
+        </div>
+
+        <!-- Sign Language -->
+        <div id="signLanguageContainer">
+            <video id="signLanguageVideo" autoplay playsinline muted>
+                <source src="your-video-url.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        <!-- Sign Language and Captions Toggle -->
+        <div id="toggle-container">
+            <label class="switch">
+                <input type="checkbox" id="toggleSignLangCaptions">
+                <span class="slider round"></span>
+            </label>
+            <p id="toggleText">Off</p> <!-- On/Off Indicator text -->
+            <p id="toggleDescription">Sign Language & Live Caption</p> <!-- Description text -->
+        </div>
+    </div>
+    <script src="nitk.js"></script>
+</body>
+</html>

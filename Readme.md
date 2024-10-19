@@ -17,7 +17,7 @@ Our project addresses the need for better accessibility in virtual meetings, par
 ---
 
 ## FlowChart:
-![NITK-Hackton](artifacts\flowchart.jpeg)
+![NITK-Hackton](https://github.com/nitkhackathon2024/BGSCET-Team-Phoneix/blob/main/artifacts/flowchart.jpeg)
 
 ---
 
